@@ -1,0 +1,21 @@
+{
+  "mongodb": {
+    "host": "localhost",
+    "port": 27017,
+    "database": "ggskills",
+    "name": "mongodb",
+    "connector": "mongodb"
+  },
+  "storage": {
+    "name": "storage",
+    "connector": "loopback-component-storage",
+    "provider": "filesystem",
+    "root": "./common/storage",
+    "allowedContentTypes": [
+      "image/jpg",
+      "image/jpeg",
+      "image/png",
+      "application/pdf"
+    ]
+  }
+}
