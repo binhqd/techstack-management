@@ -1,0 +1,56 @@
+{
+  "name": "ggusers",
+  "plural": "ggusers",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "fullname": {
+      "type": "string",
+      "required": true
+    },
+    "photo": {
+      "type": "string"
+    },
+    "bio": {
+      "type": "string"
+    },
+    "techstacks": {
+      "type": [
+        "object"
+      ]
+    },
+    "presentations": {
+      "type": [
+        "object"
+      ]
+    },
+    "educations": {
+      "type": [
+        "object"
+      ]
+    },
+    "certificates": {
+      "type": [
+        "object"
+      ]
+    },
+    "linkedin": {
+      "type": "string"
+    },
+    "twitter": {
+      "type": "string"
+    },
+    "linked_accounts": {
+      "type": [
+        "object"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
